@@ -1,4 +1,4 @@
-.gg1 {
+.card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
@@ -7,7 +7,19 @@
 }
 
 
-.gg1 a{
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card a{
   border: none;
   outline: 0;
   padding: 12px;
@@ -19,6 +31,12 @@
   font-size: 18px;
 
 }
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
 
 
 .gg button {
